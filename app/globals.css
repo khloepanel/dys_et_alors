@@ -63,15 +63,25 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
     font-family: "Futura New Headline", "Futura", "Nunito Sans", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
   }
 
-  .font-hello-notie {
-    font-family: "Kalam", cursive;
+  @font-face {
+    font-family: 'Hello-Notie';
+    src: url('/fonts/Hello-Notie.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
   }
+
+  .font-hello-notie {
+    font-family: 'Hello-Notie', cursive;
+  }
+
+  
 
   .font-futura {
     font-family: "Futura New Headline", "Futura", "Nunito Sans", "Avenir Next", "Helvetica Neue", Arial, sans-serif;

@@ -22,9 +22,10 @@ export default function HomePage() {
             </div>
 
             {/* Titre centré, plus petit et avec marges */}
-            <h1 className="text-3xl md:text-4xl font-bold text-white text-center font-hello-notie max-w-3xl mx-4">
+            <h1 className="text-5xl md:text-6xl font-bold text-white text-center font-hello-notie max-w-4xl mx-4">
               Bienvenue dans l'univers de la dyslexie
             </h1>
+
 
             {/* Étoiles à droite */}
             <div className="flex flex-col space-y-1 ml-4">
@@ -54,15 +55,15 @@ export default function HomePage() {
         </section>
 
         {/* Blue Info Section with Punched Holes */}
-       <section className="px-4 relative -mt-16">
-  <div className="section-description flex justify-center">
-    <img
-      src="/images/illustration_description.png"
-      alt="Bienvenue !"
-      className="w-auto h-[400px]"
-    />
-  </div>
-</section>
+        <section className="px-4 relative -mt-16">
+          <div className="section-description flex justify-center">
+            <img
+              src="/images/illustration_description.png"
+              alt="Bienvenue !"
+              className="w-auto h-[400px]"
+            />
+          </div>
+        </section>
 
 
 
